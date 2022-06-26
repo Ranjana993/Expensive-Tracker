@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: FDFAF6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main__container {
+  font-size: 12px;
+  background-color: #FBF8F1;
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  margin-top: 42px;
+  text-align: left;
+  color: rgb(15, 13, 13);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  margin-left: 12px;
+}
+.balance>h3 {
+  font-size: 13px;
+}
+.balance>h2{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.income__expensive {
+  margin-top: 12px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 83px;
+  background-color: #FBF8F1;
+  color: black;
+  padding: 12px;
+  box-shadow: 1px 3px 8px 0px darkolivegreen;
+  ;
+}
+
+.left {
+  margin-left: 23px;
+  /* border-right: 1px solid grey; */
+  margin-right: 23px;
+
+}
+
+.left>p {
+  color: rgb(9, 97, 9);
+}
+
+.right {
+  margin-right: 23px;
+}
+
+.right>p {
+  color: red;
+}
+
+.history {
+  margin-top: 22px;
+}
+
+.history>h2 {
+  border-bottom: 1px solid rgb(70, 67, 67);
+}
+
+ul>li {
+  list-style: none;
+}
+
+ul {
+  margin-top: 12px;
+  display: flex;
+  gap: 74px;
+  font-size: 15px;
+  height: 23px;
+  background-color: #FBF8F1;
+  padding: 5px;
+  justify-content: space-between;
+  box-shadow: 1px 3px 8px 0px darkolivegreen;
+
+}
+.delt-Btn{
+  background-color: none;
+  height: 22px;
+  width: 23px;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.newTransection {
+  margin-top: 23px;
+}
+
+.newTransection>h2 {
+  border-bottom: 1px solid grey;
+}
+
+form {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-top: 12px;
+}
+
+form>.first {
+  width: 100px;
+}
+form>.first>label{
+  margin-top: 9px;
+  margin-bottom: 12px;
+  font-weight: bolder;
+  font-size: 13px;
+}
+form>.first>input{
+  width: 300px;
+  height: 32px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+outline: none;
+border: none;
+box-shadow: 1px 3px 8px 0px darkolivegreen;
+}
+form>.second>label {
+margin-top: 9px;
+}
+button{
+  width: 300px;
+  height: 32px;
+  outline: none;
+  border: none;
+  background-color: rgb(249, 31, 249);
+  box-shadow: 1px 3px 8px 0px darkolivegreen;
   color: white;
+  font-weight: bolder;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover{
+  background-color: white;
+  color:rgb(249, 31, 249);
 }
